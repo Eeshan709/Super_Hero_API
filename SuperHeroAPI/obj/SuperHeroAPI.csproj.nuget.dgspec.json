@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Eeshan Poornima\\source\\repos\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI.csproj": {}
+    "D:\\Practise\\Super_Hero_API\\SuperHeroAPI\\SuperHeroAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Eeshan Poornima\\source\\repos\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI.csproj": {
+    "D:\\Practise\\Super_Hero_API\\SuperHeroAPI\\SuperHeroAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Eeshan Poornima\\source\\repos\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI.csproj",
+        "projectUniqueName": "D:\\Practise\\Super_Hero_API\\SuperHeroAPI\\SuperHeroAPI.csproj",
         "projectName": "SuperHeroAPI",
-        "projectPath": "C:\\Users\\Eeshan Poornima\\source\\repos\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI.csproj",
-        "packagesPath": "C:\\Users\\Eeshan Poornima\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Eeshan Poornima\\source\\repos\\SuperHeroAPI\\SuperHeroAPI\\obj\\",
+        "projectPath": "D:\\Practise\\Super_Hero_API\\SuperHeroAPI\\SuperHeroAPI.csproj",
+        "packagesPath": "C:\\Users\\eeshan\\.nuget\\packages\\",
+        "outputPath": "D:\\Practise\\Super_Hero_API\\SuperHeroAPI\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Eeshan Poornima\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\eeshan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,6 +40,20 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
@@ -55,7 +65,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -67,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
